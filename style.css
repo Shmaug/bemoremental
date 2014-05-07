@@ -1,0 +1,41 @@
+#top
+{
+	background:url("img/beach.jpg");
+	background-repeat:repeat-x;
+}
+#logo
+{
+	/*text-align:left-side;*/
+}
+
+body
+{
+	background-color:white;
+}
+
+#btnAbout
+{
+	width:102px;
+	height:51px;
+	background:url("img/buttons.gif") 0 0;
+}
+#btnAbout:hover
+{
+	width:102px;
+	height:51px;
+	background:url("img/buttons.gif") 0 51px;
+}
+
+#btnNewShirts
+{
+	width:159px;
+	height:51px;
+	background:url("img/buttons.gif") -124px 0;
+}
+#btnNewShirts:hover
+{
+	
+	width:159px;
+	height:51px;
+	background:url("img/buttons.gif") -124px 52px;
+}
