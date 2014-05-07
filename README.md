@@ -1,4 +1,0 @@
-bemoremental
-============
-
-Mental Shirts website
