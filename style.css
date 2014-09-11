@@ -34,14 +34,50 @@ body
 .ph1 {
     font-family: "Segoe-Ui";
     text-align: center;
-    font-size:10em;
+    font-size:10vw;
     font-family:sans-serif;
     margin-bottom:0;
+    color:#fff;
 }
 
 .ph2 {
     text-align: center;
-    font-size:5em;
+    font-size:5vw;
     font-family: "Segoe-Script";
     margin-top:20px;
+    color:#fff;
+}
+
+.about {
+    position:absolute;
+    width:100%;
+    height:512px;
+    top:100%;
+    background:#fff;
+}
+
+h1 {
+    font-family: "Segoe-Ui";
+    text-align: center;
+    font-size:5vw;
+    font-family:sans-serif;
+    margin-bottom:0;
+}
+
+.center3 {
+    font-family: "Segoe-Ui";
+    text-align: center;
+    font-size:3vw;
+    font-family:sans-serif;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.center2 {
+    font-family: "Segoe-Ui";
+    text-align: center;
+    font-size:2vw;
+    font-family:sans-serif;
+    margin-top:0;
+    margin-bottom:0;
 }
