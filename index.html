@@ -1,63 +1,45 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Mental shirts">
+        <meta name="author" content="">
+        <title>Mental Shirts</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favico.ico">
     </head>
 
     <body>
-        <div class="title">
-            <div class = "centered">
-                <p class = "ph1">MENTAL</p>
-                <p class = "ph2">shirts</p>
-            </div>
-        </div>
-        <div class = "info">
-            <div class = "aboutcontainer">
-                <h3>Hello</h3>
-                <p class = "center3">I make shirts.</br>Here are some of my designs:</p>
-            </div>
-            <!-- img grid -->
-            <div class = "imggrid">
-                <div class="col-left">
-                    <div class = "row">
-                        <img class="gimg" src="img/tiki.png"></img>
-                    </div>
-                    <div class = "row">
-                        <img class="gimg" src="img/illuminati.png"></img>
-                    </div>
-                    <div class = "row">
-                        <img class="gimg" src="img/logo3.png"></img>
-                    </div>
-                    <div class = "row">
-                        <img class="gimg" src="img/banana.png"></img>
-                    </div>
-                    <div class = "row">
-                        <img class="gimg" src="img/mental.png"></img>
-                    </div>
-
-                    <div class = "row" style="background:url(img/surfbg.JPG);">
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">Mental Shirts</h3>
+                        <ul class="nav masthead-nav">
+                            <li id="btnHome" class="navButton active"><a>Home</a></li>
+                            <li id="btnDesigns" class="navButton"><a>Designs</a></li>
+                            <li id="btnContact" class="navButton"><a>Contact</a></li>
+                        </ul>
                     </div>
                 </div>
-            <div class="col-right">
-                <div class = "row">
-                    <img class="gimg" src="img/whale.jpg"></img>
+                <div id="divHome" class="inner cover">
+                    <h1 class="cover-heading">Mental Shirts.</h1>
+                    <p class="lead desc">Be more mental</p>
                 </div>
-                <div class = "row">
-                    <img class="gimg" src="img/logomagenta.jpg"></img>
+                <div id="divContact" class="inner cover" style="display:none">
+                    <h1 class="cover-heading">Want a shirt?</h1>
+                    <p class="lead" style="font-size: 3vw">Contact me at <b>bemoremental@gmail.com</b> to order one</p>
                 </div>
-                <div class = "row">
-                    <img class="gimg" src="img/logo2.png"></img>
-                </div>
-                <div class = "row">
-                    <img class="gimg" src="img/wave.JPG"></img>
-                </div>
-
-                <div class = "row" style="background:url(img/fistbg.JPG);">
-                </div>
-                <div class = "row" style="background:url(img/bg.jpg);">
+                <div id="divDesigns" class="inner cover" style="display:none">
+                    <h1 class="cover-heading">Mental Shirts.</h1>
                 </div>
             </div>
-            <!-- img grid -->
         </div>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script></html>
+    <script src="js/logic.js"></script>
 </html>
