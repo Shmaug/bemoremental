@@ -1,0 +1,129 @@
+@font-face{
+    font-family:"rave";
+    src:url("/font/rave.ttf") format("truetype");
+}
+@font-face{
+    font-family:"playball";
+    src:url("/font/playball.ttf") format("truetype");
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    min-width:1100px;
+}
+/*header*/
+.htop{
+    padding:5px;
+    height:128px;
+}
+.logo{
+    display:block;
+    vertical-align: middle;
+    margin-left:40px;
+    float:left;
+}
+.logopic{
+    width:128px;
+    height:128px;
+}
+.head1{
+    display:block;
+    vertical-align: middle;
+    position:relative;
+    font-family:sans-serif;
+    font-size: 5em;
+    text-align: center;
+    width:500px;
+    margin:auto;
+    top:50%;
+    transform:translateY(-50%);
+}
+.head2{
+    position: relative;
+    font-family:rave;
+    text-align: center;
+    font-size:2em;
+    width:250px;
+    margin:auto;
+    left:25%;
+    transform:translateY(-125%);
+}
+/*navbar*/
+.navbar{
+    display:block;
+    height:32px;
+    background-color:#111;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 0px;
+}
+.navlist{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.navli{
+    float:left;
+    width:20%;
+    top:50%;
+    text-align: center;
+    margin-top:2px;
+}
+.navbtn {
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    font-size:1.5em;
+}
+.srchbox{
+    display: inline-block;
+    border-radius:20px;
+    border-style: none;
+    height:16px;
+    vertical-align: middle;
+    margin-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+}
+.srchbtn{
+    display: inline-block;
+    vertical-align: middle;
+    border-style: none;
+    background:url('/img/srch.png') no-repeat;
+    background-size: contain;
+    width:16px;
+    height:16px;
+    margin-top:5px;
+    margin-left:2px;
+    cursor:pointer;
+}
+/*footer*/
+.socmed{
+    display:block;
+    height:67px;
+    background-color:#111;
+}
+.smul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    margin-top:5px;
+}
+.smli{
+    float:left;
+    width:33.33%;
+    text-align: center;
+    margin-top:2px;
+}
+.contact{
+    font-size:24px;
+    text-align: center;
+    font-family:monospace;
+}
+.vibes{
+    text-align:center;
+    padding;bottom:20px;
+    font-size:96px;
+    font-family: playball;
+    color:#555;
+}

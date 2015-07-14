@@ -1,0 +1,74 @@
+/* content */
+.content{
+    min-height:600px;
+    background:url("/img/fistbg.jpg");
+    padding:20px;
+}
+.rowpic{
+    width:128px;
+    height:auto;
+    border-radius:4px;
+    box-shadow: 0px 0px 10px #000;
+    margin-right:10px;
+}
+.row{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    height: 128px;
+    padding:5px;
+    background-color:#fff;
+    box-shadow: 0px 0px 10px #000;
+    margin-top:10px;
+}
+.rowtxt{
+    text-align:center;
+    font-family:sans-serif;
+    margin-left:70px;
+    font-size:2em;
+    height:35%;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family:sans-serif;
+}
+.rowform{
+    float:right;
+    height:100%;
+    margin-top:0px;
+    margin-bottom:0px;
+    width:calc(100% - 300px);
+    font-family: sans-serif;
+    font-size:1.25em;
+}
+.rowslider{
+    width:90%;
+    margin-left:5%;
+}
+.rowsliderbtn{
+    position:relative;
+    top:-22px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:20px;
+}
+.rowrate{
+    width:50px;
+    text-align:center;
+    font-size:1.25em;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.rowrank{
+    float:left;
+    height:0px;
+    width:40px;
+    margin-left:-50px;
+    margin-top:64px;
+    font-family:fantasy;
+    font-size:64px;
+    text-align:center;
+    line-height: 0%;
+}

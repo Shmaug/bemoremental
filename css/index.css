@@ -1,0 +1,94 @@
+ /*slider*/
+.slider{
+    display:block;
+    position:relative;
+    overflow: hidden;
+    width:100%;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 3px;
+}
+.slidercontent{
+    position:relative;
+    float:left;
+    width:10000px;
+}
+.simg{
+    width:auto;
+    height:auto;
+    float:left;
+    padding:0px;
+    border:none;
+}
+.sliderl{
+    z-index: 1;
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    width:48px;
+    height:48px;
+    font-size:48px;
+    top:calc(50% - 24px);
+    cursor:pointer;
+    text-align: center;
+    color:#777;
+}
+.sliderl:hover{
+    color:#ccc;
+}
+.sliderr{
+    z-index: 1;
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    width:48px;
+    height:48px;
+    font-size:48px;
+    top:calc(50% - 24px);
+    left:calc(100% - 48px);
+    cursor:pointer;
+    text-align: center;
+    color:#777;
+}
+.sliderr:hover{
+    color:#ccc;
+}
+/*footer*/
+.socmed{
+    display:block;
+    height:67px;
+    background-color:#000;
+}
+.smul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    margin-top:5px;
+}
+.smli{
+    float:left;
+    width:33.33%;
+    text-align: center;
+    margin-top:2px;
+}
+.contact{
+    font-size:24px;
+    text-align: center;
+    font-family:monospace;
+}
+.vibes{
+    text-align:center;
+    padding;bottom:20px;
+    font-size:96px;
+    font-family: playball;
+    color:#555;
+}
+/* content */
+.content{
+    background:url("/img/fistbg.jpg");
+}
+.s1{
+    
+}
+.s2{
+    
+}

@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head><meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Mental shirts">
-        <meta name="author" content="">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1">
+        <meta name="description"content="Mental shirts">
+        <meta name="author"content="">
         <title>Mental Shirts</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link rel="shortcut icon" href="favico.ico">
+        <link href="css/index.css"rel="stylesheet">
+        <link rel="shortcut icon"href="favico.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     </head>
 
     <body>
-        <div class="site-wrapper">
-            <div class="site-wrapper-inner">
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <h3 class="masthead-brand">Mental Shirts</h3>
-                        <ul class="nav masthead-nav">
-                            <li id="btnHome" class="navButton active"><a>Home</a></li>
-                            <li id="btnDesigns" class="navButton"><a>Designs</a></li>
-                            <li id="btnContact" class="navButton"><a>Contact</a></li>
-                        </ul>
+        <!--header-->
+        <div id="header"></div>
+        <!--content-->
+        <div class="content" id="content">
+            </br>
+            <div class="slider" id="s1">
+                <div class="sliderl"id="sliderl">&lt;</div>
+                <div class="sliderr"id="sliderr">&gt;</div>
+                <div>
+                    <div class="slidercontent" id="s1c" data-pos="0" data-pmax="3">
+                        <img class="simg"src="/img/a11/0.jpg">
+                        <img class="simg"src="/img/a11/1.jpg">
+                        <img class="simg"src="/img/a11/2.jpg">
+                        <img class="simg"src="/img/a11/3.jpg">
                     </div>
                 </div>
-                <div id="divHome" class="inner cover">
-                    <h1 class="cover-heading">Mental Shirts.</h1>
-                    <p class="lead desc">Be more mental</p>
-                </div>
-                <div id="divContact" class="inner cover" style="display:none">
-                    <h1 class="cover-heading">Want a shirt?</h1>
-                    <p class="lead" style="font-size: 3vw">Contact me at <b>bemoremental@gmail.com</b> to order one</p>
-                </div>
-                <div id="divDesigns" class="inner cover" style="display:none">
-                    <h1 class="cover-heading">Mental Shirts.</h1>
+            </div>
+            </br>
+            <div class="slider" id="s2">
+                <div class="sliderl"id="sliderl">&lt;</div>
+                <div class="sliderr"id="sliderr">&gt;</div>
+                <div>
+                    <div class="slidercontent" id="s2c" data-pos="0" data-pmax="1">
+                        <img class="simg"src="/img/a13/0.jpg">
+                        <img class="simg"src="/img/a13/1.jpg">
+                    </div>
                 </div>
             </div>
+        </br>
         </div>
+        <!--footer-->
+        <div id="footer"></div>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script></html>
-    <script src="js/logic.js"></script>
+    <script>$(document).ready(function(){
+    $("#header").load("/header.html",function(){$(window).resize()});
+    $("#footer").load("/footer.html",function(){$(window).resize()});});
+    </script>
+    <script src="/js/index.js"></script>
 </html>
