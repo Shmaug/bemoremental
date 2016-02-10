@@ -106,6 +106,8 @@ $(document).ready(function(){
     var query = new Parse.Query("next");
     query.find({
         success:function(results){
+            var container = document.createElement("div");
+            container.className = "surveyContainer";
             for (var i=0;i<results.length;i++){
                 var n=results[i];
                 var curname=n.get("name");
@@ -146,6 +148,7 @@ $(document).ready(function(){
                 cfp.innerHTML=curname;
                 
                 // add elements in order
+                cp.appendChild(container);
                 cr.appendChild(cp);
                 cr.appendChild(cf);
                 cr.appendChild(cb);

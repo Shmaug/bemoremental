@@ -1,5 +1,5 @@
  /*slider*/
-.slider{
+/*.slider{
     display:block;
     position:relative;
     overflow: hidden;
@@ -13,7 +13,7 @@
     position:relative;
     float:left;
     width:10000px;
-}
+}   */
 .simg{
     width:auto;
     height:auto;
@@ -21,7 +21,7 @@
     padding:0px;
     border:none;
 }
-.sliderl{
+/*.sliderl{
     z-index: 1;
     background-color:rgba(255, 255, 255, 0);
     position: absolute;
@@ -51,12 +51,24 @@
 }
 .sliderr:hover{
     color:#ccc;
+}   */
+
+/*Content*/
+
+body{
+    padding: 0px;
+    margin: 0px;
+    min-width:1000px;
 }
+
+
 /*footer*/
+/*
 .socmed{
     display:block;
     height:67px;
     background-color:#000;
+    width: 100%;
 }
 .smul{
     list-style-type:none;
@@ -73,7 +85,7 @@
 .contact{
     font-size:24px;
     text-align: center;
-    font-family:monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 .vibes{
     text-align:center;
@@ -82,6 +94,8 @@
     font-family: playball;
     color:#555;
 }
+
+*/
 /* content */
 .content{
 /*    background:url("/img/fistbg_dark.jpg");   */
@@ -92,3 +106,51 @@
 .s2{
     
 }
+
+/*	INDEX.CSS STARTS HERE	*/
+
+
+.newContent {
+	height: 45vh;
+	min-height: 300px;
+	max-height: 500px;
+	margin-bottom: 50px;
+	padding-left: 20vh;
+	padding-right: 20vh;
+
+}
+
+.contLeft {
+	float: left;
+	width: 50%;
+	height: 100%
+}
+
+.contRight {
+	float: left;
+	width: 50%;
+	height: 100%;
+	
+}
+
+.contLeft li {
+	float: left;
+	width: 100%;
+	height: 22.5vh;
+	
+}
+
+.contRight li {
+	float: left;
+	width: 100%;
+	height: 45vh;
+}
+
+.comingSoonCont {
+	
+}
+
+
+
+
+

@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible"content="IE=edge">
-        <meta name="viewport"content="width=device-width, initial-scale=1">
-        <meta name="description"content="Mental shirts">
-        <meta name="author"content="">
-        <title>Mental Shirts</title>
-        <link href="css/items.css"rel="stylesheet">
-        <link rel="shortcut icon"href="favico.ico">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="//www.parsecdn.com/js/parse-1.3.3.min.js"></script>
-    </head>
 
-    <body>
-        <!--header-->
-        <div id="header"></div>
-        <!--content-->
-        <div class="content" id="content">
-            
-        </div>
-        <!--footer-->
-        <div id="footer"></div>
-    </body>
-    
-    <script>$(document).ready(function(){
-    $("#header").load("/header.html",function(){$(window).resize()});
-    $("#footer").load("/footer.html",function(){$(window).resize()});});
-    </script>
-    <script src="/js/itemloader.js" id="itemloader" data-parseobj="warmy"></script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Mental shirts">
+	<meta name="author" content="">
+	<title>Mental Shirts</title>
+	<link href="css/items.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favico.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//www.parsecdn.com/js/parse-1.3.3.min.js"></script>
+</head>
+
+<body>
+	<!--header-->
+	<div id="header"></div>
+	<!--content-->
+	<div class="content" id="content">
+		<img src="img/warmie.jpg" class="bannerPhoto">
+	</div>
+	<!--footer-->
+	<div id="footer"></div>
+</body>
+
+<script>
+	$(document).ready(function () {
+		$("#header").load("/header.html", function () {
+			$(window).resize()
+		});
+		$("#footer").load("/footer.html", function () {
+			$(window).resize()
+		});
+	});
+</script>
+<script src="/js/itemloader.js" id="itemloader" data-parseobj="warmy"></script>
+
 </html>

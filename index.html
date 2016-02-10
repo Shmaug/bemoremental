@@ -1,54 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible"content="IE=edge">
-        <meta name="viewport"content="width=device-width, initial-scale=1">
-        <meta name="description"content="Mental shirts">
-        <meta name="author"content="">
-        <title>Mental Shirts</title>
-        <link href="css/index.css"rel="stylesheet">
-        <link rel="shortcut icon"href="favico.ico">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    </head>
 
-    <body>
-        <!--header-->
-        <div id="header"></div>
-        <!--content-->
-        <div class="content" id="content">
-            </br>
-            <div class="slider" id="s1">
-                <div class="sliderl"id="sliderl">&lt;</div>
-                <div class="sliderr"id="sliderr">&gt;</div>
-                <div>
-                    <div class="slidercontent" id="s1c" data-pos="0" data-pmax="3">
-                        <img class="simg"src="/img/a11/0.jpg">
-                        <img class="simg"src="/img/a11/1.jpg">
-                        <img class="simg"src="/img/a11/2.jpg">
-                        <img class="simg"src="/img/a11/3.jpg">
-                    </div>
-                </div>
-            </div>
-            </br>
-            <div class="slider" id="s2">
-                <div class="sliderl"id="sliderl">&lt;</div>
-                <div class="sliderr"id="sliderr">&gt;</div>
-                <div>
-                    <div class="slidercontent" id="s2c" data-pos="0" data-pmax="1">
-                        <img class="simg"src="/img/a13/0.jpg">
-                        <img class="simg"src="/img/a13/1.jpg">
-                    </div>
-                </div>
-            </div>
-        </br>
-        </div>
-        <!--footer-->
-        <div id="footer"></div>
-    </body>
-    <script>$(document).ready(function(){
-    $("#header").load("/header.html",function(){$(window).resize()});
-    $("#footer").load("/footer.html",function(){$(window).resize()});});
-    </script>
-    <script src="/js/index.js"></script>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Mental shirts">
+
+	<title>Mental Shirts</title>
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="shortcut icon" href="favico.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function () {
+			$('.flexslider').flexslider();
+		});
+	</script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<!--header-->
+		<div id="header"></div>
+		<!--content-->
+		<div id="content">
+			<div class="flexslider">
+				<ul class="slides">
+					<li><img src="img/a13/0.jpg">
+					</li>
+					<li><img src="img/a13/1.jpg">
+					</li>
+					<li><img src="img/a13/2.jpg">
+					</li>
+					<li><img src="img/a13/3.JPG">
+					</li>
+				</ul>
+			</div>
+			<div class="newContent">
+				<div class="contLeft">
+					<ul>
+						<li>Tees</li>
+						<li>Warmies</li>
+					</ul>
+
+				</div>
+				<div class="contRight">
+					<ul>
+						<li class="comingSoonCont">Coming Soon</li>
+					</ul>
+
+				</div>
+
+
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer"></div>
+	</div>
+</body>
+<script>
+	$(document).ready(function () {
+		$("#header").load("/header.html", function () {
+			$(window).resize()
+		});
+		$("#footer").load("/footer.html", function () {
+			$(window).resize()
+		});
+	});
+</script>
+<!--    <script src="/js/index.js"></script>    -->
+
 </html>

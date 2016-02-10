@@ -1,9 +1,22 @@
 /* content */
-.content{
-    background:url("/img/fistbg.jpg");
-    min-height:620px;
-    margin-top:0px;
+
+body {
+    margin: 0;
 }
+
+.content{
+    min-height:620px;
+    margin-top: 70px;
+    
+}
+
+.bannerPhoto {
+	height: 55vh;
+	width: 100%;
+	min-height:700px;
+    max-width:1000px;
+}
+
 .itemname{
     padding-left: 5%;
     position: relative;
